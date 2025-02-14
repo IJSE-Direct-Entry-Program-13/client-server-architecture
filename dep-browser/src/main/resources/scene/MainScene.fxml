@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane fx:id="root" prefHeight="556.0" prefWidth="1040.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep13.browser.controller.MainSceneController">
+   <children>
+      <WebView fx:id="wbDisplay" layoutX="250.0" layoutY="53.0" prefHeight="350.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="53.0" />
+      <TextField fx:id="txtAddress" layoutX="14.0" layoutY="14.0" onAction="#txtAddressOnAction" prefHeight="26.0" prefWidth="566.0" promptText="Type a URL" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Ubuntu Regular" size="16.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
